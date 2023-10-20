@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-    <h1 className="title">Welcome {header}</h1>
+    <h1 className="title">Welcome, {header}</h1>
 <main className="card " style={{width:"18rem",position:'absolute',left:'40%',top:'20%'}}>
   <div className="card-body " style={{backgroundColor:"black"}}>
   <h1 className="count">Count Display</h1>
@@ -45,10 +45,6 @@ function App() {
    
 </div>
     
-   
-   
-
-
 </main>
    
    
