@@ -1,0 +1,41 @@
+*{
+   background-color: pink;
+}
+.title{
+   
+    font-size: 60px;
+    color:black;
+    text-align: center;
+    font-weight: 800;
+ }
+ .count {
+   text-align: center;
+   font-weight: 700;
+ }
+ .counter {
+   text-align: center;
+   font-size: 120px;
+   font-weight: 900;
+ }
+
+ .button{
+  
+   text-align: center;
+   font-weight: bold;
+ }
+ .button1{
+   background-color: green;
+   text-align: center;
+   font-weight: bold;
+ }
+ .button2{
+   background-color: crimson;
+   text-align: center;
+   font-weight: bold;
+ }
+ .footer {
+   position: absolute;
+   top:95%;
+   left:50%;
+   color:blue
+ }
