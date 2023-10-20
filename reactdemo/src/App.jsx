@@ -7,9 +7,9 @@ import 'bootstrap/dist/js/bootstrap.js';
 
 function App() {
 
-  const [header, setHeader] = useState("Title");
+  const [header, setHeader] = useState("Guest");
   const[counter,setCounter] = useState(0);
-  const [footer, setFooter] = useState("© copyright");
+  const [footer, setFooter] = useState("© copyright 2023 . All rights Reserved");
 
 
 
@@ -17,8 +17,9 @@ function App() {
   return (
     <>
     <h1 className="title">Welcome {header}</h1>
-
-    <h1 className="count">Count Display</h1>
+<main className="card " style={{width:"18rem",position:'absolute',left:'40%',top:'20%'}}>
+  <div className="card-body " style={{backgroundColor:"black"}}>
+  <h1 className="count">Count Display</h1>
     <h1 className="counter" >{counter}</h1>
 
 <div className="button">
@@ -39,6 +40,8 @@ function App() {
 
     { counter > 5 ? ( <h1  style={{color:"green",fontWeight:"700",paddingTop:"30px"}} >YOU PASSED!</h1>) : (<h5 className="pt-3 fw-bold">ADD MORE +</h5>) 
          }
+  </div>
+
    
 </div>
     
@@ -46,6 +49,8 @@ function App() {
    
 
 
+</main>
+   
    
     <footer className="footer">{footer}</footer>
     </>

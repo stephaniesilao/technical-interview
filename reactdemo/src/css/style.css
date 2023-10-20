@@ -34,8 +34,10 @@
    font-weight: bold;
  }
  .footer {
+   
+   color:blue;
    position: absolute;
-   top:95%;
-   left:50%;
-   color:blue
+   top: 95%;
+   left: 40%
  }
+
