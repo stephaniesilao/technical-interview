@@ -9,7 +9,7 @@ function App() {
 
   const [header, setHeader] = useState("Guest");
   const[counter,setCounter] = useState(0);
-  const [footer, setFooter] = useState("© copyright 2023 . All rights Reserved");
+  const [footer, setFooter] = useState("© copyright 2024 . All rights Reserved");
 
 
 
@@ -30,15 +30,15 @@ function App() {
     </button>
   
     <button className="button2" onClick = {() =>{
-      setCounter(counter-1)
+
       {
-        counter<1 ? (setCounter(0)):(setCounter(counter-1))
+        (setCounter(0))
       }
     }}>
-    Decrement -
+    Reset
     </button>
 
-    { counter > 5 ? ( <h1  style={{color:"green",fontWeight:"700",paddingTop:"30px"}} >YOU PASSED!</h1>) : (<h5 className="pt-3 fw-bold">ADD MORE +</h5>) 
+    { counter % 2 == 0 ? ( <h1  style={{color:"green",fontWeight:"700",paddingTop:"30px"}} >It is even</h1>) : (null) 
          }
   </div>
 
